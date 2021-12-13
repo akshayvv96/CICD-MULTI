@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Scm') {
       steps {
-        git(credentialsId: 'b0d1a548-2a4f-4a8c-82a3-fd58c7d214fe', url: 'https://github.com/akshayvv96/CICD_PRJ.git')
+        git(credentialsId: 'b0d1a548-2a4f-4a8c-82a3-fd58c7d214fe', url: 'https://github.com/akshayvv96/CICD-MULTI.git')
       }
     }
 
